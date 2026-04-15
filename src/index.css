@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --color-primary: #2ab0bf;
+  --color-primary-dark: #228d99;
+  --color-primary-light: #f3f7f8;
+  --color-bg-sleek: #f3f7f8;
+  --color-text-sleek: #1a202c;
+  --color-text-light: #718096;
+  --color-border-sleek: #e2e8f0;
+  --radius-sleek: 12px;
+  --shadow-sleek: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+@layer base {
+  body {
+    @apply bg-bg-sleek text-text-sleek font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-2.5 rounded-xl font-medium transition-all hover:bg-primary-dark active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-secondary {
+    @apply bg-white text-text-sleek border border-border-sleek px-6 py-2.5 rounded-xl font-medium transition-all hover:bg-slate-50 active:scale-95;
+  }
+  .card {
+    @apply bg-white rounded-xl border border-border-sleek shadow-sleek overflow-hidden transition-all hover:shadow-lg;
+  }
+  .search-bar-sleek {
+    @apply bg-slate-100 border border-transparent rounded-full py-2 px-6 focus-within:border-primary focus-within:bg-white transition-all;
+  }
+}

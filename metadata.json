@@ -1,0 +1,6 @@
+{
+  "name": "Klyro",
+  "description": "A full-featured modern E-commerce Web Application with scalable architecture and clean UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["E-commerce", "Redux State Management", "Modern UI/UX"]
+}

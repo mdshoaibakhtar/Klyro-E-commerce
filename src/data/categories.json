@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Electronics", "icon": "Smartphone", "image": "https://picsum.photos/seed/electronics/400/400" },
+  { "id": 2, "name": "Fashion", "icon": "Shirt", "image": "https://picsum.photos/seed/fashion/400/400" },
+  { "id": 3, "name": "Furniture", "icon": "Armchair", "image": "https://picsum.photos/seed/furniture/400/400" },
+  { "id": 4, "name": "Kitchen", "icon": "Coffee", "image": "https://picsum.photos/seed/kitchen/400/400" },
+  { "id": 5, "name": "Accessories", "icon": "Watch", "image": "https://picsum.photos/seed/accessories/400/400" }
+]
